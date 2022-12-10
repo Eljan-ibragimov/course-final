@@ -1,0 +1,112 @@
+
+@media(max-width:768px){
+
+    .number{
+        display: none ;
+    }
+    .adress{
+        display: none;
+    }
+    .logo-section{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    .logo{
+        padding-top: 35px;
+        padding-bottom: 10px;
+       
+    }
+    .sign-in{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .header{
+        display: flex;
+    }
+    .left-header a{
+        padding: 0;
+        padding-left: 20px;
+       
+    }
+    .right-header{
+        padding: 0;
+        padding-right: 20px;
+    }
+    .navbar .overlay{
+        height: 100%;
+       overflow: hidden;
+    }
+    .last{
+        width: 500px;
+        gap: 0;
+        
+    }
+    .footer{
+        padding: 20px 20px;
+        display: flex;
+        gap: 40px;
+    }
+    .menyu{
+        display: flex;
+        padding: 0;
+        
+    }
+    .call-us button,input{
+        margin: 15px 0;
+        width: 400px;
+        height: 35px;
+    }
+    
+    
+  .photo{
+    display: none;
+  }
+  .photo-mobile{
+    display: block;
+  }
+  .photo-mobile img{
+    width: 100%;
+  }
+  .topic-header {
+    padding: 0;
+    width: fit-content;
+  }
+  .about {
+    padding: 35px 10px;
+  
+  }
+  .left-about{
+    width: fit-content;
+  }
+  .left-about p{
+    font-size: 18px;
+  }
+  .price{
+    padding: 20px 10px;
+  }
+  .left-price{
+  padding: 0 15px 20px 15px;
+  
+  }
+  .left-price h2{
+    padding-bottom: 10px;
+  }
+  .adress-info{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+   
+  .contact-form{
+    display: flex;
+    justify-content: center;
+}
+.contact-header{
+  display: flex;
+  justify-content: center;
+}
+  
+  
+  }

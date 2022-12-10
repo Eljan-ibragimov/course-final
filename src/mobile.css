@@ -1,0 +1,53 @@
+@media(max-width:500px){
+   
+    .info-top{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .info-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .sliders {
+        padding-left: 150px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .contact-form{
+        display: flex;
+        justify-content: center;
+    }
+    .contact-header{
+        display: flex;
+        justify-content: center;
+    }
+    .button{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+   
+   
+    .right-about{
+        width: 450px;
+    }
+    .front-s img{
+        width: 470px;
+    }
+    .front-s {
+        width: 470px;  
+    }
+    .back-s {
+        width: 470px;
+       height: 470px;
+       
+    }
+    .shows input{
+        width: 270px;
+    }
+
+   
+}
